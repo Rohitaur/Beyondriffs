@@ -107,11 +107,13 @@ footer .container .item-3 .promoting img{
 
 
 
-
-
-
 @media only screen and (max-width: 1020px) {
     footer .container .item-1{
         
     }
+  }
+
+  footer .whatsappicon{
+       text-align: right;
+       font-size: smaller;
   }
