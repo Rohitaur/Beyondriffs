@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+footer{
+    color: aliceblue;
+    /* max-width: 1326px; */
+    background-color: #000000;
+    height: 100vh;
+    padding: 10px 30px;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+footer .container .item-1 .inner-items-1{
+    display: grid;
+    grid-template-columns: 130px 150px 130px;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+footer .container .item-1 .inner-items-1 img{
+    width: 132px;
+    height: 132px;
+}
+
+footer .container .item-1 .inner-items-1 video{
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    
+}
+
+footer .container .item-1 a{
+    color: #171717;
+    background: white;
+    padding: 12px;
+    display: inline-block;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all .25s ease-in;
+}
+
+footer .container .item-1 a:hover{
+    color: white;
+    background: #171717;
+}
+
+footer .container .item-2 {
+    width: 292px;
+    height: 364px;
+    position: relative;
+}
+footer .container .item-2 a img{
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    height: 100%;
+    transition: all .2s ease-in-out;
+}
+footer .container .item-2 a img:hover{
+    opacity: .8;
+}
+
+footer .container .item-3 .logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+
+footer .container .item-3 .para{
+    font-size: 20px;
+}
+
+footer .container .item-3 .promoting{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    position: relative;
+}
+
+footer .container .item-3 .promoting span{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 4px;
+    left: 35px;
+}
+
+footer .container .item-3 .promoting img{
+    width: 192px;
+    height: 127px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1020px) {
+    footer .container .item-1{
+        
+    }
+  }
