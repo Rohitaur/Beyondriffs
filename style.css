@@ -12,6 +12,12 @@ footer{
     height: 100vh;
     padding: 10px 30px;
 }
+.heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-style:normal;
+}
 
 footer .container{
     display: grid;
@@ -20,11 +26,21 @@ footer .container{
     align-items: center;
     justify-content: center;
 }
+
+.item-1{
+    padding-top: 150px;
+}
+
+.item-2 {
+    padding-top: 40px;
+}
+
 footer .container .item-1 .inner-items-1{
     display: grid;
     grid-template-columns: 130px 150px 130px;
     gap: 10px;
     margin-top: 15px;
+    
 }
 
 footer .container .item-1 .inner-items-1 img{
@@ -33,7 +49,7 @@ footer .container .item-1 .inner-items-1 img{
 }
 
 footer .container .item-1 .inner-items-1 video{
-    width: 132px;
+    width: 20px;
     height: 132px;
     object-fit: cover;
     
@@ -113,7 +129,3 @@ footer .container .item-3 .promoting img{
     }
   }
 
-  footer .whatsappicon{
-       text-align: right;
-       font-size: smaller;
-  }
