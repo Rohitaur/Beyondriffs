@@ -37,7 +37,7 @@ footer .container{
 
 footer .container .item-1 .inner-items-1{
     display: grid;
-    grid-template-columns: 130px 150px 130px;
+    grid-template-columns: 130px 130px 130px;
     gap: 10px;
     margin-top: 15px;
     
